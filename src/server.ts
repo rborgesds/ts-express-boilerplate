@@ -1,3 +1,6 @@
+/* eslint-disable import/first */
+require('dotenv').config();
+
 import app from './app';
 import Logger from './commons/helpers/logger';
 
