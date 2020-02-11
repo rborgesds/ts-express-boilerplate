@@ -43,7 +43,7 @@ Run
 Execute:
 
 ```shell script
-npm run dev
+npm run start
 ```
 
 Unit Tests
@@ -60,7 +60,7 @@ Coverage
 Execute:
 
 ```shell script
-npm run coverage
+npm run test:cov
 ```
 
 Release
