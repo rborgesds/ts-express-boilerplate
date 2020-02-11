@@ -1,5 +1,5 @@
-import {Router} from "express";
-import {healthcheckRouter} from './api/healthcheck/healthcheck.router';
+import { Router } from 'express';
+import healthcheckRouter from './api/healthcheck/healthcheck.router';
 
 const router = Router();
 
