@@ -18,7 +18,7 @@ Documentation
 Install
 -------
 
-**[Node Version Manager](https://github.com/nvm-sh/nvm) is recommend to manage node versions**
+**[Node Version Manager](https://github.com/nvm-sh/nvm) is recommend to manage Node.js versions**
 
 **It always recommended to use latest LTS version of Node.js.**
 
