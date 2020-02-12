@@ -43,7 +43,7 @@ Run
 Execute:
 
 ```shell script
-npm run start
+npm start
 ```
 
 Unit Tests
