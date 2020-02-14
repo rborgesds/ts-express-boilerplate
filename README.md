@@ -1,4 +1,4 @@
-# ts-node-boilerplate
+# ts-express-boilerplate
 
 [![Logo Image][logo-image]][logo-url]
 
