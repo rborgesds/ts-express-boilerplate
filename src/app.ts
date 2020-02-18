@@ -14,8 +14,8 @@ class App {
   public constructor() {
     this.express = express();
 
-    this.configs();
     this.middlewares();
+    this.configs();
   }
 
   private configs(): void {
