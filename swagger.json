@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "title": "TS Express Boilerplate",
     "contact": {
-      "email": "tecnologia@housi.com.br"
+      "email": "rborgesds@gmail.com"
     }
   },
   "tags": [
@@ -36,13 +36,6 @@
           }
         }
       }
-    }
-  },
-  "securityDefinitions": {
-    "api_key": {
-      "type": "apiKey",
-      "name": "Authorization",
-      "in": "header"
     }
   }
 }

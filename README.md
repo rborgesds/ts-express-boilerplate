@@ -1,6 +1,6 @@
 # ts-express-boilerplate
 
-[![Logo Image][logo-image]][logo-url]
+![logo](logo-url)
 
 Context
 -------
@@ -43,7 +43,17 @@ Run
 Execute:
 
 ```shell script
+npm run build
 npm start
+```
+
+Run development
+---
+
+Execute:
+
+```shell script
+npm run dev
 ```
 
 Unit Tests
