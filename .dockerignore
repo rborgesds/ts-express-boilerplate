@@ -1,11 +1,5 @@
-dist/
-node_modules/
-.env.example
-.eslintrc.json
-prettierrc.json
-Dockerfile
-jest.config.js
-LICENSE
-nodemon.json
-README.md
-.gitignore
+*
+!src/
+!tsconfig.json
+!swagger.json
+!package*.json
