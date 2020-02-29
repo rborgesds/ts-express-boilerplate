@@ -1,10 +1,12 @@
 import express from 'express';
 import morgan from 'morgan';
 import bodyParser from 'body-parser';
+import swaggerUi from 'swagger-ui-express';
 
 import routes from './routes';
 
 import apiVersion from './commons/middlewares/api-version';
+import swagger from '../swagger.json';
 
 const morganFormat = ':remote-addr - :method :url :status :response-time ms - :res[content-length]';
 
@@ -16,6 +18,11 @@ class App {
 
     this.middlewares();
     this.configs();
+    this.swagger();
+  }
+
+  private swagger(): void {
+    this.express.use('/docs', swaggerUi.serve, swaggerUi.setup(swagger));
   }
 
   private configs(): void {

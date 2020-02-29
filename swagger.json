@@ -1,0 +1,48 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "The description of what the application do",
+    "version": "1.0.0",
+    "title": "TS Express Boilerplate",
+    "contact": {
+      "email": "tecnologia@housi.com.br"
+    }
+  },
+  "tags": [
+    {
+      "name": "healthcheck",
+      "description": "How is the health of your app?"
+    }
+  ],
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "paths": {
+    "/healthcheck": {
+      "get": {
+        "tags": [
+          "healthcheck"
+        ],
+        "summary": "Returns OK status when everything is fine",
+        "description": "",
+        "operationId": "getHealthcheck",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          }
+        }
+      }
+    }
+  },
+  "securityDefinitions": {
+    "api_key": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
+  }
+}
