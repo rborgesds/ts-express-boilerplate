@@ -1,13 +1,14 @@
 {
   "name": "ts-express-boilerplate",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "The description of what the application do",
+  "main": "dist/src/server.js",
   "scripts": {
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
     "build": "tsc",
-    "start": "nodemon src/server.ts",
+    "dev": "nodemon src/server.ts",
+    "start": "node .",
     "test": "jest --detectOpenHandles --verbose",
     "test:cov": "jest --coverage"
   },
@@ -16,8 +17,7 @@
     "url": "git+https://github.com/rborgesds/ts-express-boilerplate.git"
   },
   "author": "Rodrigo Borges <rborgesds@gmail.com>",
-  "license": "UNLICENSED",
-  "private": true,
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/rborgesds/ts-express-boilerplate/issues"
   },

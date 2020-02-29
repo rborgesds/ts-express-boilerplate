@@ -1,6 +1,6 @@
 # ts-express-boilerplate
 
-[![Logo Image][logo-image]][logo-url]
+![logo](logo-url)
 
 Context
 -------
@@ -10,9 +10,11 @@ The description of what the application do
 Documentation
 -------
 
-*Production:* [https://api.dev.local/docs/](https://api.dev.local/docs/)
+*Production:* [https://api.yourdomain.io/docs/](https://api.dev.local/docs/)
 
-*Sandbox:* [https://api-sandbox.dev.local/docs/](https://api-sandbox.dev.local/docs/)
+*Staging:* [http://api-staging.yourdomain.io/docs/](https://api-sandbox.dev.local/docs/)
+
+*Local:* [http://localhost:3000/docs/](http://localhost:3000/docs/)
 
 
 Install
@@ -43,7 +45,17 @@ Run
 Execute:
 
 ```shell script
+npm run build
 npm start
+```
+
+Run development
+---
+
+Execute:
+
+```shell script
+npm run dev
 ```
 
 Unit Tests
