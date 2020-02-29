@@ -10,4 +10,5 @@ WORKDIR /app
 COPY --from=builder app/dist /app/dist
 COPY package*.json /app/
 RUN npm ci
+EXPOSE 3000
 CMD [ "npm", "start" ]
