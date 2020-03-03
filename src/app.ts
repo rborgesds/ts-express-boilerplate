@@ -22,7 +22,8 @@ class App {
   }
 
   private swagger(): void {
-    this.express.use('/docs', swaggerUi.serve, swaggerUi.setup(swagger));
+    const title = `${swagger.info.title} docs`;
+    this.express.use('/docs', swaggerUi.serve, swaggerUi.setup(swagger, { customSiteTitle: title }));
   }
 
   private configs(): void {
