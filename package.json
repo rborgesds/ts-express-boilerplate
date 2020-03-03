@@ -10,7 +10,8 @@
     "dev": "nodemon src/server.ts",
     "start": "node .",
     "test": "jest --detectOpenHandles --verbose",
-    "test:cov": "jest --coverage"
+    "test:cov": "jest --coverage",
+    "lint": "eslint \"src/**\""
   },
   "repository": {
     "type": "git",
